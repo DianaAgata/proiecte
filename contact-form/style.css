@@ -1,0 +1,27 @@
+
+
+body{
+    margin: 0 auto;
+    max-width: 660px;
+    padding-top: 100px;
+}
+.confirmation-banner{
+    background-color: rgba(144, 238, 144, 0.619);
+    max-width: 660px;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 20px;
+}
+.img{
+    float: right;
+    padding: 20px;
+    position: relative;
+}
+form {
+    margin-left: 50px;
+}
+input {
+    margin: 10px 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="confirmation-banner"></div>
+    <div class="container">
+        <form name="myForm">
+            <input type="text" class="input-field" name="firstName" placeholder="First Name" />
+            <br>
+            <input type="text" class="input-field" name="lastName" placeholder="Last Name" />
+            <br> Gender
+            <div id="radio">
+                <input type="radio" name="gender" value="m" id="male" />
+                <label for="male" class="radio">M</label>
+                <br>
+                <input type="radio" name="gender" value="f" id="female" />
+                <label for="female" class="radio">F</label>
+            </div>
+
+            <textarea name="Message" cols="40" rows="10" placeholder="Your message here..."></textarea>
+            <br>
+
+            <input type="button" value="Submit" class="submit" />
+        </form>
+
+        <img src="http://i3.cpcache.com/product/224316265/save_a_life_adopt_a_shelter_pet_decal.jpg?width=225&height=225&Filters=%5B%7B%22name%22%3A%22background%22%2C%22value%22%3A%22F2F2F2%22%2C%22sequence%22%3A2%7D%5D" class="img"
+            alt="Adopt a pet image">
+    </div>
+
+    <script src="contact.js"></script>
+
+</body>
+
+</html>

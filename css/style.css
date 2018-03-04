@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 11px;
+    padding: 8px 190px;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 14px;
+    padding-top: 22px;
+    text-align: center;
+    height: 35px;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    padding: 10px 190px;
+}
+
+li {
+    color: rgb(150, 150, 150);
+    display: inline;
+    font-size: 9px;
+    padding: 15px 5px;
+}
+
+li:first-child {
+    color: white;
+}
+
+ul {
+    float: right;
+}
+
+#img {
+    background-color: rgb(196, 196, 196);
+    border-radius: 4px;
+    color: rgba(128, 128, 128, 0.728);
+    font-size: 50px;
+    height: 180px;
+    width: 1700px;
+    margin-right: 20px;
+    padding: 60px;
+    text-align: center;
+}
+
+a {
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    font-size: 11px;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.middle {
+    background-color: rgba(130, 128, 128, 0.959);
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    margin: 4px 190px;
+}
+
+#middle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1, 5;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+p {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+.cardBody {
+    border: 1px solid rgb(208, 208, 208);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 20px;
+}
+
+#two {
+    margin: 0px 20px;
+}
+
+.cardFooter {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(208, 208, 208);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 40px;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+#title {
+    margin: 10px 190px;
+}
+
+h1 span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img {
+    background-color: rgb(196, 196, 196);
+    color: rgba(128, 128, 128, 0.728);
+    font-size: 18px;
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.page2 {
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+    height: 250px;
+    width: 242px;
+    overflow: hidden;
+}
+
+.first, .second, .third {
+    margin-right: 23px;
+}
+
+.photo2 {
+    color: rgb(0, 123, 255);
+}
+
+.bottom {
+    border-bottom: none;
+    height: 154px;
+}
+
+#second {
+    padding: 10px 190px 0px 190px;
+}
+
+.fourth {
+    margin-right: -1px;
+}

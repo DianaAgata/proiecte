@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+    padding: 100px;
+   }
+button{
+    color: #480703;
+    font-size: 20px;
+    font-weight: 900;
+    width: 180px;
+    margin: 30px;
+    padding: 10px;
+}
+#display{
+    color: #480703;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px;
+    padding: 40px;
+}
