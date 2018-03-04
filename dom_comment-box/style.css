@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  max-width: 660px;
+  padding-top: 50px;
+}
+.comment-box{
+  background-color: rgb(122, 3, 70);
+  padding: 30px 50px;
+}
+.comment-box__field {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.comment-box__add-btn {
+  width: 100px;
+}
+input{
+  margin-bottom: 20px;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.comments {
+  color: rgb(122, 3, 70);
+}
+li {
+  background-color: rgb(211, 169, 155);
+  margin-top: 20px;
+  padding: 15px;
+  position: relative;
+}
+li > button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+label{
+  color: rgb(238, 184, 209);
+}
