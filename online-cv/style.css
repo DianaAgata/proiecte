@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 28, 31);
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation, .footer {
+    background-color: rgb(132, 44, 91);
+    padding: 0.4rem 0;
+    text-align: center;
+}
+
+img {
+    margin: 2rem;
+    height: 100%;
+}
+.nav-li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-li a {
+    color: rgb(35, 28, 31);
+}
+
+.footer a, .footer p {
+    color: rgb(35, 28, 31);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.about {
+    color: rgb(132, 44, 91);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.motto {
+    line-height: 3rem;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    padding: 1.5rem 0;
+    color: rgb(138, 17, 82);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(138, 17, 82);
+}
+
+h2 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p {
+    color: rgb(199, 16, 114);
+}
+
+.title {
+    color: rgb(138, 17, 82);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+section {
+    border-top: 3px solid rgba(20, 2, 10, 0.483);
+    /* border-bottom: 3px solid rgba(20, 2, 10, 0.483); */
+    margin-bottom: 10px;
+}
+
+.aside-li a {
+    background-color: rgba(214, 172, 200, 0.66);
+    color: rgb(199, 16, 114);
+    width: 100%;
+    display: flex;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.aside-li a:hover {
+    font-weight: 900;
+}

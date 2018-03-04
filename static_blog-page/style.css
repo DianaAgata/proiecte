@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydW7k_SVxK3NmvdfQ9psjtUHeRLD2q0npPaKVHW20ALO5YDrq);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', serif;
+}
+
+header {
+    display: flex;
+    margin: 20px;
+}
+
+footer {
+    background-color: salmon;
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    color: salmon;
+    padding: 60px 40px;
+}
+
+nav {
+    background-color: salmon;
+    clear: both;
+    display: block;
+    padding: 10px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+a {
+    color: #54052D;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section {
+    border: 3px solid rgb(103, 14, 61);
+    border-radius: 3px;
+    color: rgb(34, 6, 17);
+    display: flex;
+    font-size: 18px;
+    margin: 20px;
+    text-align: justify;
+}
+
+div {
+    padding: 10px 20px;
+}
+
+h3+p::first-letter,
+h2+p::first-letter {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+    width: 50%;
+}
+
+h3 {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 800;
+    height: 100px;
+    padding: 20px 20px 40px;
+    text-align: center;
+}
+
+.second {
+    height: 800px;
+    width: 33.3%;
+    padding: 20px;
+}
+
+.three {
+    display: block;
+    margin: auto;
+}
+
+dl {
+    font-weight: bold;
+}
+
+.third {
+    height: 840px;
+    width: 33.3%;
+    padding: 20px;
+}
