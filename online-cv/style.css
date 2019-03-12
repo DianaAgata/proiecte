@@ -31,7 +31,7 @@ img {
 }
 
 .footer a, .footer p {
-    color: rgb(35, 28, 31);
+    color: #F9E0D9;
     font-weight: 500;
     font-size: 1.2rem;
 }
@@ -52,6 +52,7 @@ img {
     min-height: 380px;
     margin: 0 auto;
     padding: 2rem;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -83,6 +84,10 @@ p {
 section {
     border-top: 3px solid rgba(20, 2, 10, 0.483);
     margin-bottom: 10px;
+}
+
+.skill{
+    font-weight: 700;
 }
 
 aside ul{
